@@ -58,7 +58,7 @@ class account{
  <table>
 
  <tr><td><input  style="font-size:25px; type="text" id="username" name="username" placeholder="Enter your username" maxlength="40" required></td></tr>
- <tr><td><input  style="font-size:25px; type="text" id="password" name="password" placeholder="Enter your password" maxlength="20" required></td></tr>
+ <tr><td><input  style="font-size:25px; type="text" id="password" onchange="validateUser()" name="password" placeholder="Enter your password" maxlength="20" required></td></tr>
  <tr><td><button id = "proceed"; style="font-size:25px; id = "trb5" type = "button" onclick = 'validateUser()'   > login    </button> </td></tr>
  </table>
  </p>
