@@ -6,21 +6,24 @@
 	 let pword = document.getElementById("password").value;
 	 let pass = -1;
 	 let usr =  -1;
-	 for(let i = 0; i <=22; i++) {
+	 for(let i = 0; i <=49; i++) {
 	    if((uname == accounts[i].username) && (pword == accounts[i].password)) 
 		 { pass = 0;
-/*		  alert("user type is " + accounts[i].role);   */
-		   if(accounts[i].role == "officer") { 
+		  
+		   if(accounts[i].role == "officer") {
+			   alert(" officer loging in");
 			   usr = 0;
 		       var y = document.getElementById("officer");
 			   y.textContent = "Officers";
 		       y.disabled = false;
-		   } else {
-			   
-		   var x = document.getElementById("website");
-	       x.textContent = "Proceed to Website";
-		   x.disabled = false;
-		 }
+		   } 
+
+		   if(accounts[i].role == "user") {
+			  alert("user loging in");
+		      var x = document.getElementById("website");
+	          x.textContent = "Proceed to Website";
+		      x.disabled = false;
+		   }
 	 }
 	 if(pass == -1) { alert("Login Failed")}
 	 return;
