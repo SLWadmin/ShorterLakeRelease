@@ -11,7 +11,7 @@
 	 for(let i = 0; i <=49; i++){
 	    if((uname == accounts[i].username) && (pword == accounts[i].password)) {
 		   pass = 0;
-		   alert(" valid user .. role is " + accounts[i].role);
+	//	   alert(" valid user .. role is " + accounts[i].role);
 		   if(accounts[i].role == "officer") {
 			   alert(" officer loging in");
 			   usr = 0;
@@ -21,7 +21,7 @@
 		   } 
 
 		   if(accounts[i].role == "user") {
-			  alert("user loging in");
+	//		  alert("user loging in");
 		      var x = document.getElementById("website");
 	          x.textContent = "Proceed to Website";
 		      x.disabled = false;
