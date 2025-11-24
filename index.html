@@ -35,6 +35,9 @@
 	 if(pass == -1) { 
 		alert("Login Failed")
 	 }
+	  let ref = document.getElementById('site');
+	  let refv = ref.href;
+	alert(" href is " + refv);
     return;
 	 }
   
@@ -129,10 +132,10 @@ var accounts = populateAccounts();
  <p> </p>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp
  
-                   <a href="ShorterLake.html">  
+                   <a id = "site" href="ShorterLake.html?userId=22">  
                       <button id = "website"; disabled = true; style="font-size:25px" > Locked! </button>
 				   </a>
-	               <a href="ShorterLake.html">
+	               <a id = "site2" href="ShorterLake.html?userId=22">
 					  <button id = "officer"; disabled = true; style="font-size:25px" > Disabled </button>
 				   </a>
 				   <!--  style=display:none -->
