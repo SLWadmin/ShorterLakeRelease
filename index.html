@@ -2,14 +2,16 @@
 <link rel="stylesheet" href="ShorterLake0.css">
 <script src = "classes.js">            </script>
 <script src = "populateAccounts.js">   </script>
+<script src = "validateUser.js">       </script>
 <script>
-   function validateUser() {
+   function validateUserOld() {
 	   
      let uname = document.getElementById("username").value;
 	 let pword = document.getElementById("password").value;
 	 let pass = -1;
 	 let usr =  -1;
-	   
+	 let uId = validateUser(uname,pword,accounts);  
+	   alert("Uid is + uId);
 	 for(let i = 0; i <=49; i++){
 	    if((uname == accounts[i].username) && (pword == accounts[i].password)) {
 		   pass = 0;
@@ -118,8 +120,8 @@ var accounts = populateAccounts();
  <table>
 
  <tr><td><input  style="font-size:25px; type="text" id="username" name="username" placeholder="Enter your username" maxlength="40" required></td></tr>
- <tr><td><input  style="font-size:25px; type="text" id="password" onchange="validateUser()" name="password" placeholder="Enter your password" maxlength="20" required></td></tr>
- <tr><td><button id = "proceed"; style="font-size:25px; id = "trb5" type = "button" onclick = 'validateUser()'   > login    </button> </td></tr>
+ <tr><td><input  style="font-size:25px; type="text" id="password" onchange="validateUserOld()" name="password" placeholder="Enter your password" maxlength="20" required></td></tr>
+ <tr><td><button id = "proceed"; style="font-size:25px; id = "trb5" type = "button" onclick = 'validateUserOld()'   > login    </button> </td></tr>
  </table>
  </p>
  <p>
