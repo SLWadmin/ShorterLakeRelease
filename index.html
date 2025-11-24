@@ -12,6 +12,11 @@
 	 let usr =  -1;
 	 let uId = validateUser(uname,pword,accounts);  
 	   alert("Uid is" + uId);
+	   
+	       let ref = document.getElementById('site');
+	       let refv = ref.href;
+	       lert(" href is " + refv);
+	   
 	 for(let i = 0; i <= accounts.length; i++){
 	    if((uname == accounts[i].username) && (pword == accounts[i].password)) {
 		   pass = 0;
