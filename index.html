@@ -11,8 +11,8 @@
 	 let pass = -1;
 	 let usr =  -1;
 	 let uId = validateUser(uname,pword,accounts);  
-	   alert("Uid is + uId);
-	 for(let i = 0; i <=49; i++){
+	   alert("Uid is" + uId);
+	 for(let i = 0; i <= accounts.length; i++){
 	    if((uname == accounts[i].username) && (pword == accounts[i].password)) {
 		   pass = 0;
 	//	   alert(" valid user .. role is " + accounts[i].role);
