@@ -1,20 +1,20 @@
-function validateUser(uname,pword,uAccounts) {
+   function validateUser(accounts) {
 	   
-//	 <script src = "classes.js">             </script>//
-	   
-	 console.log(" validate user");
-     console.log(" number of user is " + uAccounts.length);	 
-     let userId = -1;
+	 var SLWurl = "ShorterLake.html?userId=";
+//	 alert("in validateUser - accounts length is " + accounts.length);  
+     let uname = document.getElementById("username").value;
+	 let pword = document.getElementById("password").value;
 
+	 let uID= getUserID(uname,pword,accounts);  
+//	   alert("Uid is" + uID);
+	   if(uID == -1){
+		   alert("login failed");
+		   return;
+	   }
 	   
-	 for(let i = 0; i <= uAccounts.length; i++){
-	    if((uname == uAccounts[i].username) && (pword == uAccounts[i].password)) {
-            userId = i;
-			return userId;
-		   } 
-	 }
-	//  failed login  //
-	
-	 
-    return userId;
+	   SLWurl = SLWurl + uID;
+//	   alert("the SLWurl is " + SLWurl);
+	   window.location.href = SLWurl;
+
+    return;
 	 }
