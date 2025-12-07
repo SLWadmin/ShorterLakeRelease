@@ -5,7 +5,7 @@ function populateAccounts() {
 
     accounts[0]  = new account("sonnyferrari@yahoo.com"     , "9179","officer");
     accounts[1]  = new account("sadavey2@yahoo.com"         , "9176","officer");
-    accounts[2]  = new account("dseward77@yahoo.com"        , "9041","user");
+    accounts[2]  = new account("dseward77@yahoo.com"        , "9041","officer");
     accounts[3]  = new account("chrissheffer@chartermi.net" , "9190","officer");
     accounts[4]  = new account("sreed1@mhc.net"             , "9015","user");
     accounts[5]  = new account("shc57@hotmail.com"          , "9018","user");
