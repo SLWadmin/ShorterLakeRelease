@@ -8,14 +8,14 @@ margin-bottom:0px;
 
 div#one {
     width: 99%;	
-    height:135px;              /* was 150px good release */
+    height:150px;              /* was 150px good release */
     background: grey;
     float: left;
 		border-style: solid;
 }
 div#oneb1 {
     width: 10%;                 /*  was 15% */
-    height: 600px;
+    height: 615px;              /*  was 600px good release */
     background: grey;
     float: left;
 	border-style: solid;
