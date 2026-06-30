@@ -7,8 +7,8 @@ margin-bottom:0px;
 }
 
 div#one {
-    width: 99%;
-    height:150px;
+    width: 99%;	
+    height:135px;              /* was 150px good release */
     background: grey;
     float: left;
 		border-style: solid;
@@ -23,7 +23,7 @@ div#oneb1 {
 }
 div#oneb2 {
     width: 36%;
-    height: 600px;
+    height: 615px;              /*  was 600px good release  */
 /*    background: grey;   */
     float: left;
 		border-style: solid;
@@ -31,7 +31,7 @@ div#oneb2 {
 }
 div#oneb3 {
     width: 26%;                /* was 48% */
-    height: 600px;
+    height: 615px;              /* was 600 px  good release  */
     background: grey;
     float: left;              /* was right */
 		border-style: solid;
@@ -39,7 +39,7 @@ div#oneb3 {
 }
 div#oneb4 {
 	width: 26%;
-	height: 600px;
+	height: 615px;             /* was 600px  good release  */
 	background: grey;
 	float: left;
 	   border-style: solid;
