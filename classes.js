@@ -3,6 +3,6 @@ class account{
 			this.username = username;
 			this.password = password;
 			this.role     = role;
-			this.linkaddr = linksddr;
+			this.linkaddr = linkaddr;
 		}
 	}
