@@ -118,8 +118,10 @@
    var accounts = populateAccounts();
    var userName = accounts[userID].username;
    var userlink = accounts[userID].linkaddr;
-   document.getElementById("acclink").href = userlink;
-
+		 console.log("userlink    " + userlink);
+		 alert("userlink is " + userlink);
+   document.getElementById("acclink").href = "https://docs.google.com/document/d/1kK75YD7tzQyilxlhh9XIDg8wptUzW7hPwZt8k-fNZAU/edit?usp=sharing";
+         alert(" href is " +  document.getElementById("acclink").href);
 //   document.getElementById("acclink").href = "https://docs.google.com/document/d/1kK75YD7tzQyilxlhh9XIDg8wptUzW7hPwZt8k-fNZAU/edit?usp=sharing";		 
 //   alert("user is " + userName);
 //   alert( "user id is " + userID);
@@ -159,7 +161,7 @@
 <!--	<a href = "https://docs.google.com/document/d/1kK75YD7tzQyilxlhh9XIDg8wptUzW7hPwZt8k-fNZAU/edit?usp=sharing"> -->
 	    <a id = "acclink" href = "placeholder">
 								   
-								     <button id = "ballot";  style="font-size:40px" >Cast your Ballot </button>
+								     <button id = "ballot";  style="font-size:40px" >Cast your 2027 Ballot </button>
 					   
 	</a> 
 </div>
