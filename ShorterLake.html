@@ -118,10 +118,9 @@
    var accounts = populateAccounts();
    var userName = accounts[userID].username;
    var userlink = accounts[userID].linkaddr;
-		 let ballot = document.getElementById("acclink");
+		 const href = document.getElementById('lk').href;
 
-         alert(ballot);
-		 alert(ballot.href);
+         alert(href);
 	 
 //   alert("user is " + userName);
 //   alert( "user id is " + userID);
@@ -158,7 +157,7 @@
  contact or message Leslie Hays or Dave Seward <br>
  </p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-	    <a id="acclink" href="https://docs.google.com/document/d/1kK75YD7tzQyilxlhh9XIDg8wptUzW7hPwZt8k-fNZAU/edit?usp=sharing">
+	    <a id="lk" href="https://docs.google.com/document/d/1kK75YD7tzQyilxlhh9XIDg8wptUzW7hPwZt8k-fNZAU/edit?usp=sharing">
 								   
 								     <button id = "ballot";  style="font-size:40px" >Your 2027 Ballot </button>
 					   
