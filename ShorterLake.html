@@ -117,7 +117,7 @@
    var userID = urlParams.get('userId');
    var accounts = populateAccounts();
    var userName = accounts[userID].username;
-   var userlink = accounts[userID].linkaddr;
+   const userlink = accounts[userID].linkaddr;
 	 
 //   alert("user is " + userName);
 //   alert( "user id is " + userID);
@@ -166,17 +166,18 @@
 
 </div>
 	<script> 
-		let aref =  getElementById('lk');
+		let aref =  document.getElementById('lk');
+		console.log(userlink);
 		console.log(aref);
 		alert("00 ===  I am at the alert java script");
-		alert(" 01 " + getElementById('lk').href);
+		alert(" 01 " + document.getElementById('lk').href);
 		document.getElementById('lk').href = userlink; 
 	</script>
 
 </body>
 		<script> 
 		alert("0x ===  I am at the alert java script");
-		alert(" 0x " + getElementById('lk').href);
+		alert(" 0x " + document.getElementById('lk').href);
 		document.getElementById('lk').href = userlink; 
 	</script>
 </html>
