@@ -118,9 +118,6 @@
    var accounts = populateAccounts();
    var userName = accounts[userID].username;
    var userlink = accounts[userID].linkaddr;
-		 const href = document.getElementById('lk').href;
-
-         alert(href);
 	 
 //   alert("user is " + userName);
 //   alert( "user id is " + userID);
@@ -157,7 +154,12 @@
  contact or message Leslie Hays or Dave Seward <br>
  </p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-	    <a id = "lk" href="https://docs.google.com/document/d/1kK75YD7tzQyilxlhh9XIDg8wptUzW7hPwZt8k-fNZAU/edit?usp=sharing">Click Here to Vote for 2027 Officers</a>
+	    <a href="shfOfficers.html">      
+								   
+								     <button id = "lk";  style="font-size:40px" > Click Here to Vote for 2027 Officers </button>
+								   
+		</a>
+	<script> document.getElementById('lk').href = userlink; </script>
 </div>
 		
 <div id="onec">
