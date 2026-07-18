@@ -53,7 +53,7 @@ function populateAccounts() {
     accounts[45] = new account("bennsvette@hotmail.com"     , "9360","user",46);
     accounts[46] = new account("angmillard@hotmail.com"     , "9360","user",47);
     accounts[47] = new account("idoctros@msn.com"           , "9437","user",48);
-    accounts[48] = new account("jshopshear@lamar.com"       , "9440","user",49);
+    accounts[48] = new account("jshopshear@lamar.com"       , "9440","user","https://docs.google.com/document/d/1xVRk93HgTF8mNkhgzXqpkBJ9dQwZqib86PVNI3-O2Bo/edit?usp=sharing");
 	
 //	alert(" just read up accounts - lenght = " + accounts.length);   //
 	return accounts;
