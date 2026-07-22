@@ -59,7 +59,7 @@ function populateAccounts() {
 	accounts[51] = new account("co-owner30_1"               , "9159","user","https://docs.google.com/document/d/1bXaYEfszokb9HwnMOl4fx4DrAa_4w8FjexkF9Xsc9YM/edit?usp=sharing");
 	accounts[52] = new account("co-owner30_2"               , "9159","user","https://docs.google.com/document/d/1bXaYEfszokb9HwnMOl4fx4DrAa_4w8FjexkF9Xsc9YM/edit?usp=sharing");
 	accounts[53] = new account("spiritwolfx2@hotmail.com"   , "9044","user","https://docs.google.com/document/d/1UvuR4Q5mVL6BkOZLfqaZ-ZPqO38I5XWKdC5IotE87dc/edit?usp=sharing");
-	accounts[54] = new accounts["jdean1128@gmail.com"       , "9021","user","https://docs.google.com/document/d/17BC-3TrFatuGyNu5OBjAJ7VNCvV2LvxkPU6L50h669U/edit?usp=sharing");
+	accounts[54] = new accounts("jdean1128@gmail.com"       , "9021","user","https://docs.google.com/document/d/17BC-3TrFatuGyNu5OBjAJ7VNCvV2LvxkPU6L50h669U/edit?usp=sharing");
 	
 	
 //	alert(" just read up accounts - lenght = " + accounts.length);   //
