@@ -9,7 +9,7 @@ function populateAccounts() {
     accounts[3]  = new account("chrissheffer@chartermi.net" , "9190","officer","https://docs.google.com/document/d/1ai6gr7nYZR5-yJf62sDRQk044FKqmoHYdoFSZgotkZc/edit?usp=sharing");
     accounts[4]  = new account("sreed1@mhc.net"             , "9015","user","https://docs.google.com/document/d/1mFszTUQ3URwljWpiG9klL2rybxc3hVpa0NsFqDg5D1Y/edit?usp=sharing");
     accounts[5]  = new account("shc57@hotmail.com"          , "9018","user","https://docs.google.com/document/d/1RgwEsfxJoFpg71NvYAvm6r5WNJUFb2Hcdg9g5HRLUJ8/edit?usp=sharing");
-    accounts[6]  = new account("jasonlpierce21@gmail.com"   , "9021","user",0);
+    accounts[6]  = new account("jasonlpierce21@gmail.com"   , "9021","user","https://docs.google.com/document/d/17BC-3TrFatuGyNu5OBjAJ7VNCvV2LvxkPU6L50h669U/edit?usp=sharing");
     accounts[7]  = new account("sholzworth@gmail.com"       , "9039","user","https://docs.google.com/document/d/1rZkQjhXeEbyflKHin9JW6IAonqITXhi9LD7n2ywegyw/edit?usp=sharing");
     accounts[8]  = new account("suzannekunze@outlook.com"   , "9042","user","https://docs.google.com/document/d/1jhVP5Uadh8Dy7VCmz6hRaTA6GuexiBbbbV15WP8avkY/edit?usp=sharing");
     accounts[9]  = new account("mccram@gmail.com"           , "9061","user","https://docs.google.com/document/d/1ngWEqXtXyMr1-1DHR3zVsr-3Hx2G1LEVqsfk108FnqU/edit?usp=sharing");
@@ -59,6 +59,7 @@ function populateAccounts() {
 	accounts[51] = new account("co-owner30_1"               , "9159","user","https://docs.google.com/document/d/1bXaYEfszokb9HwnMOl4fx4DrAa_4w8FjexkF9Xsc9YM/edit?usp=sharing");
 	accounts[52] = new account("co-owner30_2"               , "9159","user","https://docs.google.com/document/d/1bXaYEfszokb9HwnMOl4fx4DrAa_4w8FjexkF9Xsc9YM/edit?usp=sharing");
 	accounts[53] = new account("spiritwolfx2@hotmail.com"   , "9044","user","https://docs.google.com/document/d/1UvuR4Q5mVL6BkOZLfqaZ-ZPqO38I5XWKdC5IotE87dc/edit?usp=sharing");
+	accounts[54] = new accounts["jdean1128@gmail.com"       , "9021","user","https://docs.google.com/document/d/17BC-3TrFatuGyNu5OBjAJ7VNCvV2LvxkPU6L50h669U/edit?usp=sharing");
 	
 	
 //	alert(" just read up accounts - lenght = " + accounts.length);   //
