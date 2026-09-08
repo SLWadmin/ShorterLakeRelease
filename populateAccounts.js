@@ -56,8 +56,8 @@ function populateAccounts() {
     accounts[48] = new account("jshopshear@lamar.com"         , "9440","user","https://docs.google.com/document/d/1xVRk93HgTF8mNkhgzXqpkBJ9dQwZqib86PVNI3-O2Bo/edit?usp=sharing");
 	accounts[49] = new account("co-owner33_1"                 , "9236","user","https://docs.google.com/document/d/1-3d8kb7ZT5kQHgtpeJjPafK8oS8CmSa_UjlV_iO4Gso/edit?usp=sharing");
 	accounts[50] = new account("co-owner33_2"                 , "9236","user","https://docs.google.com/document/d/1-3d8kb7ZT5kQHgtpeJjPafK8oS8CmSa_UjlV_iO4Gso/edit?usp=sharing");
-	accounts[51] = new account("co-owner30_1"                 , "9159","user","https://docs.google.com/document/d/1bXaYEfszokb9HwnMOl4fx4DrAa_4w8FjexkF9Xsc9YM/edit?usp=sharing");
-	accounts[52] = new account("co-owner30_2"                 , "9159","user","https://docs.google.com/document/d/1bXaYEfszokb9HwnMOl4fx4DrAa_4w8FjexkF9Xsc9YM/edit?usp=sharing");
+	accounts[51] = new account("ajvorps@gmail.com"            , "9159","user","https://docs.google.com/document/d/1bXaYEfszokb9HwnMOl4fx4DrAa_4w8FjexkF9Xsc9YM/edit?usp=sharing");
+	accounts[52] = new account("marriahvorpagel@gmail.com"    , "9159","user","https://docs.google.com/document/d/1bXaYEfszokb9HwnMOl4fx4DrAa_4w8FjexkF9Xsc9YM/edit?usp=sharing");
 	accounts[53] = new account("spiritwolfx2@hotmail.com"     , "9044","user","https://docs.google.com/document/d/1UvuR4Q5mVL6BkOZLfqaZ-ZPqO38I5XWKdC5IotE87dc/edit?usp=sharing");
 	accounts[54] = new account("jdean1128@gmail.com"          , "9021","user","https://docs.google.com/document/d/17BC-3TrFatuGyNu5OBjAJ7VNCvV2LvxkPU6L50h669U/edit?usp=sharing");
 	accounts[55] = new account("tomtoporek@gmail.com"         , "9271","user","https://docs.google.com/document/d/1Fw1YrQo-3-REb1VLPNoXmFeMCU0oA0kC7fpQTXecrxU/edit?usp=sharing");
