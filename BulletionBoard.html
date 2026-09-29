@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bulletin Board</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+	
+	button {
+      font-size: 20px;
+    }
+
+    .board {
+      max-width: 900px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .note {
+      background: #fff8c4;
+      border: 1px solid #e0d48a;
+      padding: 12px;
+      box-shadow: 2px 2px 4px rgba(0,0,0,0.15);
+      position: relative;
+    }
+
+    .note h2 {
+      margin: 0 0 8px;
+      font-size: 1.05em;
+    }
+
+    .note p {
+      margin: 0 0 6px;
+      font-size: 1.5em;
+    }
+
+    .note .meta {
+      font-size: 1.5em;
+      color: #555;
+    }
+
+    .add-form {
+      max-width: 900px;
+      margin: 25px auto 0;
+      background: #ffffff;
+      padding: 15px;
+      border: 1px solid #ccc;
+    }
+
+    .add-form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .add-form input[type="text"],
+    .add-form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    .add-form button {
+      padding: 8px 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Shorter Lake Woods Bulletin Board</h1>
+
+  <!-- Static example notes -->
+  <div class="board" id="board">
+    <div class="note">
+      <h2>Services You May Need  &  Upcomming Events</h2>
+      <p>Find a Service Provide that others in you community have used or recommend</p>
+	  <p>Post a Service Provide that You have used or recommend</p
+      <div class="meta"></div>
+    </div>
+  </div>
+
+  <!-- Simple add-note form (client-side only) -->
+  <div class="add-form">
+  <Table>
+    <tr>
+	    <td> <button type="button" onclick="addNote()">Lawn Care</button> </td>
+		<td> <button type="button" onclick="addNote()">Snow Service</button> </td>
+		<td> <button type="button" onclick="addNote()">Automotive Repair</button> </td>
+		<td> <button type="button" onclick="addNote()">Tree Service</button> </td>
+	    <td> <button type="button" onclick="addNote()">Handy Man</button> </td>
+	</tr>
+	<tr>
+
+		<td> <button type="button" onclick="addNote()">Dog Sitter</button> </td>
+		<td> <button type="button" onclick="addNote()">Child Care</button> </td>
+		<td> <button type="button" onclick="addNote()">Transportation</button> </td>
+		<td> <button type="button" onclick="addNote()">Skilled Trades</button> </td>
+		<td> <button type="button" onclick="addNote()">Add Service</button> </td>
+		
+	</tr>
+	<tr>
+	<tr> </tr>
+	<td> Events </td>
+	<tr></tr>
+	</tr>
+	
+	<tr>
+        <td> </td>
+		<td> </td>
+		<td colspan="2"> <button type="button" onclick="addNote()">UpComming  Events</button> </td>
+
+	</tr>
+	
+    
+  </div>
+
+  <script>
+    function addNote() {
+      const title = document.getElementById('title').value.trim();
+      const content = document.getElementById('content').value.trim();
+      const author = document.getElementById('author').value.trim() || 'Anonymous';
+
+      if (!title || !content) {
+        alert('Please enter both a title and details.');
+        return;
+      }
+
+      const board = document.getElementById('board');
+
+      const note = document.createElement('div');
+      note.className = 'note';
+
+      const h2 = document.createElement('h2');
+      h2.textContent = title;
+
+      const p = document.createElement('p');
+      p.textContent = content;
+
+      const meta = document.createElement('div');
+      meta.className = 'meta';
+      const today = new Date();
+      const dateStr = today.toLocaleDateString();
+      meta.textContent = `Posted by ${author} • ${dateStr}`;
+
+      note.appendChild(h2);
+      note.appendChild(p);
+      note.appendChild(meta);
+
+      board.appendChild(note);
+
+      // Clear form
+      document.getElementById('title').value = '';
+      document.getElementById('content').value = '';
+      document.getElementById('author').value = '';
+    }
+  </script>
+
+</body>
+</html>
