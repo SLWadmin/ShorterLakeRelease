@@ -62,7 +62,8 @@ function populateAccounts() {
 	accounts[54] = new account("jdean1128@gmail.com"          , "9021","user","https://docs.google.com/document/d/17BC-3TrFatuGyNu5OBjAJ7VNCvV2LvxkPU6L50h669U/edit?usp=sharing");
 	accounts[55] = new account("tomtoporek@gmail.com"         , "9271","user","https://docs.google.com/document/d/1Fw1YrQo-3-REb1VLPNoXmFeMCU0oA0kC7fpQTXecrxU/edit?usp=sharing");
 	accounts[56] = new account("drinkwinechristine@gmail.com" , "9044","user","https://docs.google.com/document/d/1UvuR4Q5mVL6BkOZLfqaZ-ZPqO38I5XWKdC5IotE87dc/edit?usp=sharing");
-	
+	accounts[57] = new account("jennaegeler@gmail.com"        , "9016","user","https://docs.google.com/document/d/1DDhPKHML1h5X1SoBXlZ4iv8eFGW7QQarYKvXg0-ZyYg/edit?usp=sharing");
+	accounts[57] = new account("patdare2@gmail.com"           , "9016","user","https://docs.google.com/document/d/1DDhPKHML1h5X1SoBXlZ4iv8eFGW7QQarYKvXg0-ZyYg/edit?usp=sharing");
 //	alert(" just read up accounts - lenght = " + accounts.length);   //
 	return accounts;
 	
